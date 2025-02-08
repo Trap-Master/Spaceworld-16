@@ -1,0 +1,279 @@
+; sprite ids
+; OverworldSprites indexes (see data/sprites/sprites.asm)
+	const_def
+	const SPRITE_NONE ; 00
+	;Player Characters
+	const SPRITE_CHRIS ; 01
+	const SPRITE_KRIS ; 60 95
+	;Null
+	const SPRITE_CHRIS_BIKE ; 02
+	const SPRITE_GAMEBOY_KID ; 03
+	const SPRITE_SILVER ; 04
+	const SPRITE_OAK ; 05
+	const SPRITE_RED ; 06
+	const SPRITE_BLUE ; 07
+	const SPRITE_BILL ; 08
+	const SPRITE_ELDER ; 09
+	const SPRITE_JANINE ; 0a 10
+	const SPRITE_KURT ; 0b 11
+	const SPRITE_MOM ; 0c 12
+	const SPRITE_BLAINE ; 0d 13
+	const SPRITE_REDS_MOM ; 0e 14
+	const SPRITE_DAISY ; 0f 15
+	const SPRITE_ELM ; 10 16
+	const SPRITE_WILL ; 11 17
+	const SPRITE_FALKNER ; 12 18
+	const SPRITE_WHITNEY ; 13 19
+	const SPRITE_BUGSY ; 14 20
+	const SPRITE_MORTY ; 15 21
+	const SPRITE_CHUCK ; 16 22
+	const SPRITE_JASMINE ; 17 23
+	const SPRITE_PRYCE ; 18 24
+	const SPRITE_CLAIR ; 19 25
+	const SPRITE_BROCK ; 1a 26
+	const SPRITE_KAREN ; 1b 27
+	const SPRITE_BRUNO ; 1c 28
+	const SPRITE_MISTY ; 1d 29
+	const SPRITE_LANCE ; 1e 30
+	const SPRITE_SURGE ; 1f 31
+	const SPRITE_ERIKA ; 20 32
+	const SPRITE_KOGA ; 21 33
+	const SPRITE_SABRINA ; 22 34
+	const SPRITE_COOLTRAINER_M ; 23 35
+	const SPRITE_COOLTRAINER_F ; 24 36
+	const SPRITE_BUG_CATCHER ; 25 37
+	const SPRITE_TWIN ; 26 38
+	const SPRITE_YOUNGSTER ; 27 39
+	const SPRITE_LASS ; 28 40
+	const SPRITE_TEACHER ; 29 41
+	const SPRITE_BUENA ; 2a 42
+	const SPRITE_SUPER_NERD ; 2b 42
+	const SPRITE_ROCKER ; 2c 43
+	const SPRITE_POKEFAN_M ; 2d 44
+	const SPRITE_POKEFAN_F ; 2e 45
+	const SPRITE_GRAMPS ; 2f 46
+	const SPRITE_GRANNY ; 30 47
+	const SPRITE_SWIMMER_GUY ; 31 48
+	const SPRITE_SWIMMER_GIRL ; 32 49
+	const SPRITE_BIG_SNORLAX ; 33 50 
+	const SPRITE_SURFING_PIKACHU ; 34 51
+	const SPRITE_ROCKET ; 35 52
+	const SPRITE_ROCKET_GIRL ; 36 53
+	const SPRITE_NURSE ; 37 54
+	const SPRITE_LINK_RECEPTIONIST ; 38 55
+	const SPRITE_CLERK ; 39 56
+	const SPRITE_FISHER ; 3a 57
+	const SPRITE_FISHING_GURU ; 3b 58
+	const SPRITE_SCIENTIST ; 3c 59
+	const SPRITE_KIMONO_GIRL ; 3d 60
+	const SPRITE_SAGE ; 3e 61
+	const SPRITE_UNUSED_GUY ; 3f 62
+	const SPRITE_GENTLEMAN ; 40 63
+	const SPRITE_BLACK_BELT ; 41 64
+	const SPRITE_RECEPTIONIST ; 42 65
+	const SPRITE_OFFICER ; 43 66
+	const SPRITE_CAL ; 44 67
+	const SPRITE_SLOWPOKE ; 45 68
+	const SPRITE_CAPTAIN ; 46 69
+	const SPRITE_BIG_LAPRAS ; 47 70
+	const SPRITE_GYM_GUY ; 48 71
+	const SPRITE_SAILOR ; 49 72
+	const SPRITE_BIKER ; 4a 73
+	const SPRITE_PHARMACIST ; 4b 74
+	const SPRITE_MONSTER ; 4c 75
+	const SPRITE_FAIRY ; 4d 76
+	const SPRITE_BIRD ; 4e 77
+	const SPRITE_DRAGON ; 4f 78
+	const SPRITE_BIG_ONIX ; 50 79
+	const SPRITE_N64 ; 51 80
+	const SPRITE_SUDOWOODO ; 52 81
+	const SPRITE_SURF ; 53 82
+	const SPRITE_POKE_BALL ; 54 63
+	const SPRITE_POKEDEX ; 55 84
+	const SPRITE_PAPER ; 56 85
+	const SPRITE_VIRTUAL_BOY ; 57 86
+	const SPRITE_OLD_LINK_RECEPTIONIST ; 58 87
+	const SPRITE_ROCK ; 59 88
+	const SPRITE_BOULDER ; 5a 89
+	const SPRITE_SNES ; 5b 90
+	const SPRITE_FAMICOM ; 5c 91
+	const SPRITE_FRUIT_TREE ; 5d 92
+	const SPRITE_GOLD_TROPHY ; 5e 93
+	const SPRITE_SILVER_TROPHY ; 5f 94
+	const SPRITE_KRIS_BIKE ; 61 96
+	const SPRITE_SUICUNE ; 62 97
+	const SPRITE_ENTEI ; 63 98
+	const SPRITE_RAIKOU ; 64 99
+	const SPRITE_ARCHER ; 65 100
+	const SPRITE_PROTON ; 66 101
+	const SPRITE_PETREL ; 67 102
+	const SPRITE_ARIANA ; 68 103
+	const SPRITE_SCIENTIST_F ; 69 104
+	const SPRITE_FARFETCHD ; 6a 105
+	const SPRITE_CHRIS_SURF ; 6b 106
+	const SPRITE_KRIS_SURF ; 6c 108
+	; Missing Kanto
+	;const SPRITE_ASH ; 6c 109
+	;const SPRITE_ASHLEY ; 6c 109
+	;const SPRITE_MIMEY ; 6c 109
+	;const SPRITE_CHANSEY ; 6c 109
+	;const SPRITE_GREEN ; 6c 110
+	;const SPRITE_YELLOW ; 6c 110
+	;const SPRITE_GIOVANNI ; 6c 111
+	;const SPRITE_JESSIE ; 6c 111
+	;const SPRITE_JAMES ; 6c 111
+	;const SPRITE_LOREILEI ; 6c 112
+	;const SPRITE_AGATHA ; 6c 113
+	;Missing Johto
+	;const SPRITE_CRYSTAL ; 6c 114
+	;const SPRITE_LYRA ; 6c 115
+	;Hoenn Sprites
+	;const SPRITE_BRENDAN ; 6c 116
+	;const SPRITE_MAY ; 6c 117
+	;const SPRITE_WALLY ; 6c 118
+	;const SPRITE_BIRCH ; 6c 119
+	;const SPRITE_ROXANNE ; 6c 120
+	;const SPRITE_BRAWLY ; 6c 121
+	;const SPRITE_WATSON ; 6c 122
+	;const SPRITE_FLANNERY ; 6c 123
+	;const SPRITE_NORMAN ; 6c 124
+	;const SPRITE_WINNONA ; 6c 125
+	;const SPRITE_TATE ; 6c 126
+	;const SPRITE_LIZA ; 6c 127
+	;const SPRITE_WALLACE ; 6c 128
+	;const SPRITE_JUAN ; 6c 129
+	;const SPRITE_SYDNEY ; 6c 130
+	;const SPRITE_PHOEBE ; 6c 131
+	;const SPRITE_GLACIA ; 6c 132
+	;const SPRITE_DRAKE ; 6c 133
+	;const SPRITE_STEVEN ; 6c 134
+	;const SPRITE_MAGMA ; 35 52
+	;const SPRITE_MAGMA_GIRL ; 36 53
+	;const SPRITE_TABITHA ; 6c 134
+	;const SPRITE_COURTNEY ; 6c 134
+	;const SPRITE_MAXIE ; 6c 134
+	;const SPRITE_AQUA ; 35 52
+	;const SPRITE_AQUA_GIRL ; 36 53
+	;const SPRITE_MATT ; 6c 134
+	;const SPRITE_SHELLY ; 6c 134
+	;const SPRITE_ARCHIE ; 6c 134
+	;const SPRITE_ZINNIA ; 6c 134
+	;Sinnoh Sprites
+	;const SPRITE_LUCAS ; 6c 135
+	;const SPRITE_DAWN ; 6c 136
+	;const SPRITE_BARRY ; 6c 137
+	;const SPRITE_ROWAN ; 6c 138
+	;const SPRITE_LOOKER ; 6c 138
+	;const SPRITE_CHERLY ; 6c 138
+	;const SPRITE_MIRA ; 6c 138
+	;const SPRITE_RILEY ; 6c 138
+	;const SPRITE_MARLEY ; 6c 138
+	;const SPRITE_BUCK ; 6c 138
+	;const SPRITE_ROARK ; 6c 139
+	;const SPRITE_GARDENIA ; 6c 140
+	;const SPRITE_MAYLENE ; 6c 141
+	;const SPRITE_WAKE ; 6c 142
+	;const SPRITE_FANTINA ; 6c 143
+	;const SPRITE_BRYON ; 6c 144
+	;const SPRITE_CANDICE ; 6c 145
+	;const SPRITE_VOLKNER ; 6c 146
+	;const SPRITE_AARON ; 6c 147
+	;const SPRITE_BERTHA ; 6c 148
+	;const SPRITE_FLINT ; 6c 149
+	;const SPRITE_LUCIUS ; 6c 150
+	;const SPRITE_CYNTHIA ; 6c 151
+	;const SPRITE_GALACTIC ; 35 52
+	;const SPRITE_GALACTIC_GIRL ; 36 53
+	;const SPRITE_MARS ; 6c 151
+	;const SPRITE_JUPITER ; 6c 151
+	;const SPRITE_SATURN ; 6c 151
+	;const SPRITE_CYRUS ; 6c 151
+	; Clover Sprites
+	;const SPRITE_CASSANDRA ; 6c 152
+	;const SPRITE_STUMP ; 6c 156
+	;const SPRITE_MARIO ; 6c 156
+	;const SPRITE_LUIGI ; 6c 156
+	;const SPRITE_PEACH ; 6c 156
+	;const SPRITE_TOAD ; 6c 156
+	;const SPRITE_DONKEY_KONG ; 6c 156
+	;const SPRITE_BOWSER ; 6c 156
+	;const SPRITE_WARIO ; 6c 156
+	;const SPRITE_WALUIGI ; 6c 156
+	;const SPRITE_MIKU ; 6c 156
+	;const SPRITE_TETO ; 6c 156
+	;const SPRITE_HIMIKO ; 6c 156
+	;const SPRITE_GURA ; 6c 156
+	;const SPRITE_SHINJI ; 6c 156
+	;const SPRITE_REI ; 6c 156
+	;const SPRITE_ASUKA ; 6c 156
+	;const SPRITE_AMOOGUS ; 6c 181
+	;const SPRITE_TERRORIST ; 6c 181
+	;const SPRITE_MONTY ; 6c 156
+	;const SPRITE_CREPE ; 6c 156
+	;const SPRITE_HANNAH ; 6c 156
+	;const SPRITE_FANTIN ; 6c 156
+	;const SPRITE_ELESA ; 6c 156
+	;const SPRITE_ARA ; 6c 156
+	;const SPRITE_CELESTE ; 6c 156
+	;const SPRITE_KIM ; 6c 156
+	;const SPRITE_EIN ; 6c 156
+	; Trainer Classes
+	;const SPRITE_BATTLE_GIRL ; 6c 156
+	;const SPRITE_MIKO ; 6c 156
+	;const SPRITE_CAMPER ; 6c 156
+	;const SPRITE_PICKNICKER ; 6c 169
+	;const SPRITE_HIKER ; 6c 169
+	;const SPRITE_SOLDIER ; 6c 169
+	;const SPRITE_CHEERLEADER ; 6c 169
+	;const SPRITE_ROCKER_GIRL ; 6c 169
+	;const SPRITE_ENGINEER ; 6c 169
+	;const SPRITE_COWGIRL ; 6c 169
+	;const SPRITE_RANCHER ; 6c 169
+	;const SPRITE_BUG_CATCHER_GIRL ; 6c 169
+	;const SPRITE_MEDIUM ; 6c 169
+	;const SPRITE_DELINQUENT ; 6c 169
+	;const SPRITE_DELINQUENT_F ; 6c 169
+	;const SPRITE_HEX_MANIAC ; 6c 181
+	;const SPRITE_AROMA LADY ; 6c 181
+	;const SPRITE_SCHOOLGIRL ; 6c 181
+	;const SPRITE_GAL ; 6c 181
+	;const SPRITE_CUEBALL ; 6c 181
+	;const SPRITE_SKIER ; 6c 181
+	;const SPRITE_BOARDER ; 6c 181
+	;const SPRITE_JUGGLER ; 6c 181
+	;const SPRITE_SCHOOLBOY ; 6c 181
+	;const SPRITE_BIRDKEEPER ; 6c 181
+	;const SPRITE_THIEF ; 6c 202
+	;const SPRITE_BREEDER ; 6c 213
+	;const SPRITE_DRAGON_TAMER ; 6c 213
+	;const SPRITE_LADY ; 6c 213
+	;const SPRITE_RICH_BOY ; 6c 229
+NUM_OVERWORLD_SPRITES EQU const_value - 1
+
+; SpriteMons indexes (see data/sprites/sprite_mons.asm)
+	const_def $ed ;237
+SPRITE_POKEMON EQU const_value
+	const SPRITE_EEVEE ; DF 237
+NUM_POKEMON_SPRITES EQU const_value - SPRITE_POKEMON
+
+; special GetMonSprite values (see engine/overworld/overworld.asm)
+	const_def $ee ;238
+	const SPRITE_DAY_CARE_MON_1 ; e0 238
+	const SPRITE_DAY_CARE_MON_2 ; e1 239
+
+; wVariableSprites indexes (see wram.asm)
+	const_def $f0 ;240
+SPRITE_VARS EQU const_value
+	const SPRITE_CONSOLE ; f0
+	const SPRITE_DOLL_1 ; f1
+	const SPRITE_DOLL_2 ; f2
+	const SPRITE_BIG_DOLL ; f3
+	const SPRITE_WEIRD_TREE ; f4
+	const SPRITE_OLIVINE_RIVAL ; f5
+	const SPRITE_AZALEA_ROCKET ; f6
+	const SPRITE_FUCHSIA_GYM_1 ; f7
+	const SPRITE_FUCHSIA_GYM_2 ; f8
+	const SPRITE_FUCHSIA_GYM_3 ; f9
+	const SPRITE_FUCHSIA_GYM_4 ; fa
+	const SPRITE_COPYCAT ; fb
+	const SPRITE_JANINE_IMPERSONATOR ; 252
